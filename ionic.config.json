@@ -1,0 +1,7 @@
+{
+  "name": "dev-helio",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
