@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "dev-helio": {
+      "hosting": {
+        "app": [
+          "dev-helio"
+        ]
+      }
+    }
+  }
+}
