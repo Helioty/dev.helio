@@ -8,14 +8,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 @NgModule({
-    declarations: [AppComponent],
-    imports: [
-        BrowserModule,
-        IonicModule.forRoot(),
-        AppRoutingModule,
-        AngularFireModule.initializeApp(environment.firebaseConfig),
-    ],
-    providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
-    bootstrap: [AppComponent]
+  declarations: [AppComponent],
+  imports: [
+    BrowserModule,
+    IonicModule.forRoot(),
+    AppRoutingModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+  ],
+  providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
+  bootstrap: [AppComponent],
 })
 export class AppModule {}
