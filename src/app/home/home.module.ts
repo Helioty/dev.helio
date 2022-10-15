@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
+// import { DockModule } from 'primeng/dock';
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 import { SobreModule } from 'src/app/components/sobre/sobre.module';
@@ -15,6 +16,7 @@ import { HomePage } from './home.page';
     HomePageRoutingModule,
     ProfileImgModule,
     SobreModule,
+    // DockModule,
   ],
   declarations: [HomePage],
 })

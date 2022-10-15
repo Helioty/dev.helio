@@ -26,6 +26,11 @@ export const skills: Skill[] = [
     rate: 8,
   },
   {
+    name: 'Typescript',
+    learneYear: 2018,
+    rate: 7,
+  },
+  {
     name: 'Nest.js',
     learneYear: 2020,
     rate: 7,
@@ -43,6 +48,16 @@ export const skills: Skill[] = [
   {
     name: 'Oracle DB',
     learneYear: 2020,
+    rate: 6,
+  },
+  {
+    name: 'PL/SQL',
+    learneYear: 2020,
+    rate: 4,
+  },
+  {
+    name: 'React Native',
+    learneYear: 2021,
     rate: 6,
   },
 ];
