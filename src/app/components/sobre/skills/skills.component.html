@@ -1,17 +1,23 @@
-<p-table [value]="skillList" styleClass="p-datatable-gridlines">
+<p-table
+  [value]="skillList"
+  [scrollable]="true"
+  styleClass="p-datatable-gridlines"
+>
   <ng-template pTemplate="caption"> Skills </ng-template>
   <ng-template pTemplate="header">
     <tr>
-      <th>Name</th>
-      <th>Years of experience</th>
-      <th>Level</th>
+      <th style="flex-basis: 35%">Name</th>
+      <th style="flex-basis: 35%">Years of experience</th>
+      <th style="flex-basis: 30%">Level</th>
     </tr>
   </ng-template>
   <ng-template pTemplate="body" let-skill>
     <tr>
-      <td>{{ skill.name }}</td>
-      <td>{{ getYearsOfExperience(skill.learneYear) + "+" }}</td>
-      <td>
+      <td style="flex-basis: 35%">{{ skill.name }}</td>
+      <td style="flex-basis: 35%">
+        {{ getYearsOfExperience(skill.learneYear) + "+" }}
+      </td>
+      <td style="flex-basis: 30%">
         <p-progressBar
           mode="determinate"
           [showValue]="false"
