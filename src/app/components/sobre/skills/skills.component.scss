@@ -3,6 +3,12 @@
   border-top-right-radius: 6px;
 }
 
+:host ::ng-deep .p-datatable-table {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  overflow: hidden;
+}
+
 p-progressbar {
   width: 100%;
 }
