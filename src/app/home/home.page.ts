@@ -1,10 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { IonicModule } from '@ionic/angular';
+import { IonContent } from '@ionic/angular/standalone';
 import { MenuItem } from 'primeng/api/menuitem';
-import { SobreComponent } from '../components/sobre/sobre.component';
 import { ProfileImgComponent } from '../components/profile-img/profile-img.component';
+import { SobreComponent } from '../components/sobre/sobre.component';
 
 @Component({
   standalone: true,
@@ -14,7 +14,7 @@ import { ProfileImgComponent } from '../components/profile-img/profile-img.compo
   imports: [
     CommonModule,
     FormsModule,
-    IonicModule,
+    IonContent,
     SobreComponent,
     ProfileImgComponent,
   ],
