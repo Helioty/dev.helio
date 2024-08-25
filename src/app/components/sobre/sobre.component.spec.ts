@@ -9,8 +9,7 @@ describe('SobreComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ SobreComponent ],
-      imports: [IonicModule.forRoot()]
+      imports: [SobreComponent, IonicModule.forRoot()],
     }).compileComponents();
 
     fixture = TestBed.createComponent(SobreComponent);

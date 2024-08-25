@@ -8,8 +8,7 @@ describe('SkillsComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [SkillsComponent],
-      imports: [IonicModule.forRoot()],
+      imports: [SkillsComponent, IonicModule.forRoot()],
     }).compileComponents();
 
     fixture = TestBed.createComponent(SkillsComponent);

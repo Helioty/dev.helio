@@ -9,8 +9,7 @@ describe('ProfileImgComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ ProfileImgComponent ],
-      imports: [IonicModule.forRoot()]
+      imports: [ProfileImgComponent, IonicModule.forRoot()],
     }).compileComponents();
 
     fixture = TestBed.createComponent(ProfileImgComponent);
